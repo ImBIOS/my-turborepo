@@ -23,11 +23,14 @@ importers:
       react: 18.1.0
       react-dom: 18.1.0
       tailwindcss: ^3.1.2
+      tsconfig: workspace:*
       typescript: 4.7.2
+      ui: workspace:*
     dependencies:
       next: 12.2.5_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
+      ui: link:../../packages/ui
     devDependencies:
       '@types/node': 17.0.35
       '@types/react': 18.0.9
@@ -35,6 +38,7 @@ importers:
       autoprefixer: 10.4.8_postcss@8.4.14
       postcss: 8.4.14
       tailwindcss: 3.1.8
+      tsconfig: link:../../packages/tsconfig
       typescript: 4.7.2
 
   packages/eslint-config-custom:

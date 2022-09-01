@@ -1,8 +1,9 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
 
 const Home: NextPage = () => {
+  console.log('Hello World');
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
@@ -80,7 +81,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
